@@ -1,0 +1,90 @@
+.data{
+    border: 1px solid gray;
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    
+    background-color: #e6f0ff;
+    position: relative;
+    align-self: flex-start;
+    
+  
+    
+}
+.user{
+    font-size: 50px;
+   
+}
+
+.info{
+    border-top: 1px solid;
+    text-align: start;
+     
+    
+    
+    
+}
+.info span{
+    color: red;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.data button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    border: none;
+    background-color:#03449d;
+    border-radius: px ;
+    cursor: pointer;
+    color: #fff;
+    transition-duration: 1s;
+}
+.data button:hover{
+    font-size: 20px;
+}
+@media screen and ( max-width:1006px ) {
+.data{
+    width: 45%;
+}
+.data p{
+    font-size: 25px;
+}
+.data span{
+    font-size: 20px;
+}
+.data button{
+    height: 40px;
+
+    font-size: 20px;
+}
+    
+}
+
+@media screen and (max-width:883px) {
+    .data{
+        width: 90%;
+        align-self: center;
+    }
+    .data p{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .data{
+        width: 100%;
+    
+    }
+    .data p{
+        font-size: 15px;
+    }
+    .data button{
+    font-size: 15px;
+    }
+    .data span{
+        font-size: 13px;
+    }
+    
+}

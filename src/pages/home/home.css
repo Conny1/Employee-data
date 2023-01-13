@@ -1,0 +1,83 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal{
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    top: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.editInput{
+    width: 70%;
+    background-color:white;
+    display: flex;
+    height: 90%;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+
+}
+.editInput div{
+
+    height: 10vh;
+    width: 70%;
+    text-align: start;
+    
+
+}
+#bio{
+    height: 50px;
+    width: 100%;
+}
+.cancel{
+    color:#000;
+    font-size: 20px;
+}
+.editInput button{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #82b6fd;
+    padding: 5px;
+    border:none;
+    cursor: pointer;
+    height: 50px;
+    width: 30%;
+    font-size: 30px;
+    color:black;
+}
+@media screen and (max-width:883px) {
+   .home{
+    flex-direction: column;
+   } 
+   .editInput p{
+    font-size: 30px;
+   }
+    
+}
+@media screen and (max-width:414px) {
+   .editInput button{
+    font-size: 20px;
+    color: black;
+    height: auto;
+    width: auto;
+    padding: 10px;
+   }
+     
+ }
