@@ -62,6 +62,7 @@ function updateInfo(){
     
     axios.patch(`${url}/${id}`, data)
     .then((response)=> console.log(response) )
+    alert('User Updated succesfully')
 
 }
     
