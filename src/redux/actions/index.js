@@ -5,4 +5,10 @@ export  const GetEmployeeData =(data)=>{
     }
 
 }
+export const Search = (data)=>{
+    return{
+        type:'SINGLE_DATA',
+        payload:data
+    }
+}
 

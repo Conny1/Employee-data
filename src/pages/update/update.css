@@ -1,0 +1,51 @@
+.update{
+    border: 1px solid gray;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    
+    background-color: #e6f0ff;
+    position: relative;
+    align-self: flex-start;
+    height: auto;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.udateinfo{
+    border-top: 1px solid;
+    text-align: start;
+}
+.input{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    
+}
+.exitBtn{
+    position: absolute;
+    background-color: #e6f0ff;
+    right: 0;
+    padding: 10px;
+    color: black;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    top: 0;
+    margin: 10px;
+
+
+}
+@media screen and (max-width:700px) {
+    .input{
+        right: 0;
+        left: 0;
+    }
+    .update{
+        font-size: 17px;
+        margin-top: 50px;
+    }
+
+
+    
+}
